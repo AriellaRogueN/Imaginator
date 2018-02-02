@@ -1,0 +1,29 @@
+
+body{
+    background-color: rgb(39, 38, 88);
+    margin: 200px;
+    
+}
+
+#title{
+    font-family: 'Berkshire Swash',
+    cursive;
+    font-size: 45px;
+    color:white;
+    
+}
+
+#title h2{
+    margin-top: 25px;
+   
+}
+
+#title h2:hover{
+    opacity: 0.5;
+}
+
+img{
+    margin-right: 30px;
+
+}
+
