@@ -1,29 +1,28 @@
-
-body{
-    background-color: rgb(39, 38, 88);
-    margin: 200px;
-    
+body {
+    background-color:rgb(32, 31, 31);
+    margin-left: 8em;
+    margin-right: 8em;
 }
 
-#title{
-    font-family: 'Berkshire Swash',
-    cursive;
+#title {
+    font-family: 'Berkshire Swash', cursive;
     font-size: 45px;
-    color:white;
-    
+    color:grey;
+    width:20%;
 }
 
-#title h2{
-    margin-top: 25px;
-   
-}
 
-#title h2:hover{
+ h2:hover {
     opacity: 0.5;
 }
 
-img{
+img {
     margin-right: 30px;
-
 }
 
+.content{
+    background-color:grey;
+    text-align: center;
+    height: 25em;
+    padding-top: 3em;
+}

@@ -5,6 +5,7 @@ $(document).ready(function () {
          let imagenFigure = $(this).attr('alt');
         $(this).each(function () {
             $(this).wrap('<figure></figure>');
+            
             $('figure').css({
                 'display': 'inline-block',
                 'border': '3px solid #eee',
@@ -26,13 +27,13 @@ $(document).ready(function () {
                 'display': 'inline-block',
                 'background': '#000',
                 'color': '#fff',
-                'width': '91%',
+                'width': '92%',
             });
         });
     });
 
     $('.content img').mouseout(function () {
-        $('img').unwrap();
+        $('figcaption').unwrap();
         $('img').css({
             'filter': 'brightness(1)',
         });
